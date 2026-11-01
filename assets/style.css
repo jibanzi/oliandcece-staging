@@ -230,3 +230,4 @@ section.aiband:before{content:"";position:absolute;right:-10%;top:-30%;width:70%
 section.airows{padding-bottom:0}section.airows+section.tight{padding-top:64px}
 .wrrow{border-top:1px solid var(--line);padding:12px 0}.wrrow:first-of-type{border-top:0;padding-top:0}.wrrow .mono{color:var(--ink-500)}.wrrow p{margin:4px 0 0}
 @media (max-width:767px){.airow h3.aititle{font-size:20px}}
+@media (max-width:767px){.gal3:last-child{grid-column:1/-1}}
