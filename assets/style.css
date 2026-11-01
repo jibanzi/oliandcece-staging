@@ -239,3 +239,7 @@ section.airows{padding-bottom:0}section.airows+section.tight{padding-top:64px}
 .wb-link{white-space:nowrap;font-weight:500;color:#fff;font-size:15px}.wb-link i{display:inline-block;font-style:normal;transition:transform .3s}.whbar:hover .wb-link i{transform:translate(2px,-2px)}
 @media (prefers-reduced-motion:reduce){.whbar,.wb-link i{transition:none}.whbar:hover .wb-link i{transform:none}}
 @media (max-width:767px){.whbar{grid-column:1/-1;grid-template-columns:1fr;gap:12px;padding:20px;margin-top:32px}.wb-link{white-space:normal}}
+/* v2.6 */
+.wb-link i{transition:transform .3s}.whbar:hover .wb-link i{transform:translateX(2px)}
+@media (prefers-reduced-motion:reduce){.whbar:hover .wb-link i{transform:none}}
+@media (min-width:768px){.wb-top img{width:72px}.hero .copy{grid-column:1/8}.hero h1{max-width:640px}.hero h1.h1-2 span{white-space:normal}html[lang=es] .hero h1{font-size:60px}}
