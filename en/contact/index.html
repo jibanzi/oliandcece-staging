@@ -19,7 +19,7 @@
 <label for="msg">Anything else we should know</label><textarea id="msg" name="msg" rows="4"></textarea>
 <p class="small">We use your details only to reply to you.</p><div class="btns"><button class="btn primary" type="submit">Send</button></div><p id="st" class="status" aria-live="polite"></p></form>
 <script>
-(function(){if(/[?&]topic=warehouse/.test(location.search)){var m=document.getElementById('model');if(m)m.selectedIndex=m.options.length-1;}})();
+(function(){if(/[?&]topic=warehouse(&|$)/.test(location.search)){var m=document.getElementById('model');if(m)m.selectedIndex=m.options.length-1;}})();
 document.getElementById('who').onchange=e=>document.getElementById('wh').hidden=e.target.value!=='2';
 function ocSubmit(e){e.preventDefault();const f=e.target,s=document.getElementById('st');
  if(!f.checkValidity()){s.className='status err';s.textContent=f.dataset.err;f.reportValidity();return false}
