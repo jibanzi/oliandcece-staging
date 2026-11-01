@@ -73,3 +73,10 @@ header.nav .logo{padding:8px 0}footer .logo{padding:8px 0;margin-bottom:16px}
 .logopanel{background:#fff;border:1px solid var(--line)}.disc{font-size:13px;line-height:20px;border-top:1px solid var(--line);padding-top:8px}
 .h1-2 span{white-space:nowrap}html[lang=es] .h1-2{font-size:44px;line-height:50px}
 @media (max-width:767px){header.nav .navright .btn-sm{display:inline-flex}.h1-2{font-size:min(36px,8.6vw);line-height:1.12}html[lang=es] .h1-2{font-size:min(36px,6vw);line-height:1.15}}
+/* round 3 */
+.fd{margin:0;padding:24px;display:grid;grid-template-columns:1fr 1fr;gap:16px}.fd-tile{display:flex;flex-direction:column;gap:8px}.fd-tile svg{width:56px;height:auto}
+.fd .s{fill:none;stroke:#0B1220;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.fd .a{fill:none;stroke:#1F4FD8;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.fd .f{fill:#F6F7F9;stroke:#0B1220;stroke-width:1.5}
+.fd .hd-l{font-size:11px;line-height:16px;overflow-wrap:anywhere}
+.bcard{display:flex;flex-direction:column}.bcard .visit{margin-top:auto;padding-top:8px}.bcard .discwrap{min-height:0}
+.bcard .disc{font-size:12px;line-height:18px;color:var(--ink-500);border-top:1px solid var(--line);padding-top:8px;margin:16px 0 0}
+@media (max-width:767px){.h1-2,html[lang=es] .h1-2{font-size:36px;line-height:40px}.h1-2 span{white-space:normal}}
