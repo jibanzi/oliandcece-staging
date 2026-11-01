@@ -153,3 +153,60 @@ section.strip{background:#fff;padding:44px 0;border-bottom:1px solid var(--line)
  .steps.big li{grid-template-columns:64px 1fr}.steps.big .n{font-size:28px}
  header.nav.v2home .container{padding-top:8px;padding-bottom:8px}}
 header.nav .logo img{display:block}header.nav.v2home .logo img.lc{display:none}header.nav.v2home.solid .logo img.lc{display:block}header.nav.v2home.solid .logo img.lw{display:none}
+/* ===== v2.1 ===== */
+h1,h2{text-wrap:balance}
+.c5-12{grid-column:5/13}
+.mono,.eyebrow,.sec-label{font-size:12px}
+.tagm{color:var(--signal)!important;display:block}
+/* inner hero */
+section.ihero{background:var(--ink-900);color:#C9CED8;padding:150px 0 64px;min-height:400px;position:relative;overflow:hidden}
+section.ihero:before{content:"";position:absolute;right:-10%;top:-20%;width:70%;height:140%;background:radial-gradient(50% 50% at 50% 50%,var(--glow),transparent 70%);pointer-events:none}
+.ihero .container{position:relative}.ihero h1{color:#fff;font:700 64px/1.02 "Inter Tight",Inter,sans-serif;letter-spacing:-.035em;margin:0 0 20px}.ihero .eyebrow{color:#8A93A6}.ihero .sub{color:#C9CED8;max-width:52ch}
+.ih-img{display:flex;align-items:center}.ih-img img{width:100%;height:260px;object-fit:contain;background:#F6F7F9;border-radius:16px;padding:16px}
+.ihero.dark .ih-img img{object-fit:cover;background:#111A2E;padding:0}
+.ihero.dark .eyebrow{color:#F0A27E}
+/* inner body text */
+main ul.dots li,main table.cmp td,main table.cmp th,.col3 p,.faq p,.lead{font-size:16px;line-height:1.6}
+table.cmp td,table.cmp th{font-size:15px}
+/* steps ink */
+.steps .n,.steps.big .n,.steps.ink .n{color:var(--ink-900)}
+/* home 8 */
+.art{display:flex;flex-direction:column}.cluster{position:relative;min-height:500px}
+.float{width:260px;height:260px;left:-10px;bottom:-10px;border:0;border-radius:16px;background:#F6F7F9}
+.cap{position:static;margin-top:40px;text-align:left;align-self:flex-start}
+/* home 9 statement */
+.statement{font:500 23px/1.35 "Inter Tight",Inter,sans-serif;color:var(--ink-500);letter-spacing:-.01em;margin:0}.statement strong{color:var(--ink-900);font-weight:700}
+/* home 10 */
+.t1 .ill{margin:auto 0;padding:24px 0}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.chip{font:500 12px "JetBrains Mono",monospace;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;color:var(--ink-700)}
+/* home 11 */
+.t3 .bleed{right:0;bottom:0;width:60%;height:68%;border-radius:20px 0 0 0;padding:20px 20px 0 20px}
+/* home 12 */
+.darkcard{background:#111A2E;border-radius:16px;overflow:hidden;position:relative;min-height:380px;display:flex;flex-direction:column}
+.darkcard .dwm{position:absolute;left:24px;top:24px;height:40px;width:auto;z-index:2}.darkcard .dimg{width:100%;height:100%;object-fit:cover;flex:1;min-height:380px}
+.facts{margin:20px 0}.links{margin-top:8px}
+/* home 13 */
+.whstrip{border:1px solid var(--line);border-radius:16px;padding:32px;display:flex;justify-content:space-between;align-items:center;gap:32px}.whstrip p{max-width:60ch;margin:8px 0 16px}.whstrip img{width:300px;height:auto;flex:0 0 auto}
+.btn.ghostdark{background:transparent;color:var(--ink-900);border:1px solid var(--ink-900)}
+/* how-we-work */
+.model{position:relative}.ghostnum{font:700 120px/.85 "Inter Tight",Inter,sans-serif;letter-spacing:-.04em;color:var(--accent-tint);-webkit-text-stroke:1px #C9D6F8;margin-bottom:8px}
+.col3{border-top:1px solid var(--line);padding-top:20px;margin-top:24px}.col3 h3{font-size:15px;font-family:"JetBrains Mono",monospace;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-500)}
+.mill{background:var(--paper-2);border-radius:16px;padding:24px}.mill svg{width:100%;height:auto;display:block}
+.mimg{background:var(--paper-2);border-radius:16px;height:320px;display:flex;align-items:center;justify-content:center;overflow:hidden}.mimg img{max-width:100%;max-height:100%;object-fit:contain;mix-blend-mode:multiply}
+.mimg.two{display:grid;grid-template-columns:1fr 1fr;gap:12px;background:none}.mimg.two img{width:100%;height:320px;border-radius:16px;object-fit:cover;mix-blend-mode:normal}.mimg.two img:last-child{object-fit:contain;background:var(--paper-2);padding:12px}
+.ic.big{width:120px;height:120px}
+/* for-factories */
+.hipanel{background:var(--accent-tint);border-radius:16px;padding:32px}.hipanel p{font:700 24px/1.25 "Inter Tight",Inter,sans-serif;color:var(--ink-900);margin-bottom:20px}
+.faq{border-top:1px solid var(--line);padding:16px 0}.faq summary{cursor:pointer;font:600 18px/1.4 "Inter Tight",Inter,sans-serif;color:var(--ink-900);list-style:none;display:flex;justify-content:space-between;gap:16px;min-height:44px;align-items:center}.faq summary:after{content:"+";color:var(--accent)}.faq[open] summary:after{content:"–"}.faq summary::-webkit-details-marker{display:none}
+/* brands */
+.bcard{padding:0;overflow:hidden}.pimg43{aspect-ratio:4/3;background:var(--paper-2);display:flex;align-items:center;justify-content:center;overflow:hidden}.pimg43 img{width:100%;height:100%;object-fit:cover}
+.bbody{padding:24px;display:flex;flex-direction:column;flex:1}.blogo{height:28px;width:auto;max-width:60%;object-fit:contain;object-position:left;margin-bottom:12px;mix-blend-mode:multiply}
+.bcard .visit{margin-top:auto;padding-top:8px;display:flex;gap:16px;flex-wrap:wrap}
+/* case gallery */
+.gal{margin:0;aspect-ratio:4/3;border-radius:12px;overflow:hidden;background:#111A2E}.gal img{width:100%;height:100%;object-fit:cover}
+/* contact selects */
+form select{background:#fff;border:1px solid var(--line);appearance:auto}
+@media (max-width:767px){
+ section.ihero{padding:120px 0 48px;min-height:0}.ihero h1{font-size:40px}.ih-img{margin-top:24px}.ih-img img{height:220px}
+ .cluster{min-height:300px}.gauge{right:-20px;width:380px;height:250px}.gauge img{transform:scale(1.15);transform-origin:45% 30%}.float{width:110px;height:110px;left:0;bottom:-20px;padding:8px}.cap{margin-top:32px}
+ .statement{font-size:22px}.c5-12,.c8-12{grid-column:1/-1}.whstrip{flex-direction:column;align-items:flex-start}.whstrip img{width:100%}
+ .ghostnum{font-size:80px}.mimg,.mimg.two img{height:240px}.gal{grid-column:span 2}.darkcard,.darkcard .dimg{min-height:260px}}
