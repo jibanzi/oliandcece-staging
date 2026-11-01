@@ -56,3 +56,20 @@ footer{background:var(--ink-900);color:#C9CED8;border-top:0}footer a{color:#fff}
 header.nav .logo{padding:8px 0}footer .logo{padding:8px 0;margin-bottom:16px}
 .logopanel{height:120px;background:var(--paper-2);border-radius:8px;display:flex;align-items:center;justify-content:center;padding:16px}
 .logopanel img{height:48px;max-width:100%;width:auto;object-fit:contain}.logotext{font:700 22px "Inter Tight",sans-serif;color:var(--ink-900)}
+/* fixes after ideas review */
+.h1-2 span{display:block}
+.hd{margin:0;padding:24px;display:flex;flex-direction:column;gap:8px}
+.hd-row{display:flex;align-items:center;gap:16px}.hd-icon{flex:0 0 72px}.hd-icon svg{width:72px;height:auto;display:block}
+.hd-l{font:500 13px/18px "JetBrains Mono",monospace;letter-spacing:.06em;color:var(--ink-900)}.hd-s{font:500 11px/16px "JetBrains Mono",monospace;letter-spacing:.06em;color:var(--ink-500);margin-top:4px}
+.hd-accent .hd-l{color:var(--accent)}.hd-arrow{padding-left:28px;color:var(--ink-500);font-size:16px;line-height:16px}
+.menubtn,.btn-sm{display:none}.mnav[hidden]{display:none}
+@media (max-width:767px){
+ .navlinks{display:none}.navright .lang{display:none}
+ header.nav .container{flex-wrap:nowrap;justify-content:space-between;gap:8px}
+ .navright{gap:8px}.btn-sm{display:inline-flex;height:44px;padding:0 12px;font-size:14px}
+ .menubtn{display:inline-flex;align-items:center;height:44px;padding:0 12px;border:1px solid var(--ink-900);border-radius:8px;background:#fff;font:500 14px Inter;color:var(--ink-900);cursor:pointer}
+ .mnav{border-top:1px solid var(--line);background:#fff}.mnav ul{list-style:none;margin:0;padding:8px 0}.mnav li a{display:block;line-height:48px;color:var(--ink-900);text-decoration:none;font-size:17px;border-bottom:1px solid var(--line)}.mnav .lang{padding:12px 0;font-size:15px}.mnav .lang a{display:inline-block;line-height:44px;padding:0 8px}
+ header.nav .logo img{height:40px!important}}
+.logopanel{background:#fff;border:1px solid var(--line)}.disc{font-size:13px;line-height:20px;border-top:1px solid var(--line);padding-top:8px}
+.h1-2 span{white-space:nowrap}html[lang=es] .h1-2{font-size:44px;line-height:50px}
+@media (max-width:767px){header.nav .navright .btn-sm{display:inline-flex}.h1-2{font-size:min(36px,8.6vw);line-height:1.12}html[lang=es] .h1-2{font-size:min(36px,6vw);line-height:1.15}}
