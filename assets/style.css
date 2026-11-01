@@ -242,4 +242,4 @@ section.airows{padding-bottom:0}section.airows+section.tight{padding-top:64px}
 /* v2.6 */
 .wb-link i{transition:transform .3s}.whbar:hover .wb-link i{transform:translateX(2px)}
 @media (prefers-reduced-motion:reduce){.whbar:hover .wb-link i{transform:none}}
-@media (min-width:768px){.wb-top img{width:72px}.hero h1{max-width:560px}.hero h1.h1-2 span{white-space:normal}html[lang=es] .hero h1{font-size:60px}}
+@media (min-width:768px){.wb-top img{width:72px}.hero h1{max-width:560px}.hero h1.h1-2 span{white-space:normal}html[lang=es] .hero h1{font-size:60px;line-height:1.02}}
