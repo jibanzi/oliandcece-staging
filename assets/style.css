@@ -222,3 +222,11 @@ section.aiband:before{content:"";position:absolute;right:-10%;top:-30%;width:70%
 .airow p{font-size:16px;line-height:1.6;margin:6px 0 0}.mlab{color:var(--ink-500)}
 .humpanel{background:var(--accent-tint);border-radius:16px;padding:40px}.humpanel h3{font-size:28px;margin:0 0 12px}.humpanel p{font-size:18px;line-height:1.6;max-width:62ch;margin:0}
 @media (max-width:767px){.c1-4,.c5-9,.c10-12,.c1-5{grid-column:1/-1}.aigrid{grid-template-columns:1fr 1fr;margin-top:32px}section.aiband{padding:64px 0}.airow>div+div{margin-top:12px}}
+/* v2.2 */
+.pair45{display:grid;grid-template-columns:1fr 1fr;gap:12px}.pair45 .t45{aspect-ratio:4/5;border-radius:16px;overflow:hidden}
+.pair45 .dk{background:#111A2E}.pair45 .dk img{width:100%;height:100%;object-fit:cover;display:block}
+.pair45 .lt{background:#F6F7F9;padding:20px;display:flex;align-items:center;justify-content:center}.pair45 .lt img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}
+.airow h3.aititle{font:600 22px/1.25 "Inter Tight",Inter,sans-serif;letter-spacing:-.01em}
+section.airows{padding-bottom:0}section.airows+section.tight{padding-top:64px}
+.wrrow{border-top:1px solid var(--line);padding:12px 0}.wrrow:first-of-type{border-top:0;padding-top:0}.wrrow .mono{color:var(--ink-500)}.wrrow p{margin:4px 0 0}
+@media (max-width:767px){.airow h3.aititle{font-size:20px}}
